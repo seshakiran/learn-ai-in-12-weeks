@@ -1,6 +1,40 @@
 # 12-Week AI Agents Course: From Scratch to Robust, Ethical Autonomous Systems
 
-This 12-week self-paced course addresses key structural gaps through a first-principles lens: building mathematical intuition early, embedding debugging and failure-mode handling, integrating security/ethics, expanding real-world deployment, and adding structured checkpoints for cumulative review. It remains beginner-friendly (no prior AI/ML knowledge required) and fits within 12 weeks by interleaving fixes without overload. The upgraded flow ensures progressive depth: foundations with math grounding, core building with debugging, advanced techniques, evaluation/ethics, multi-agent ops, and polished projects.
+A self-paced, beginner-friendly curriculum that takes you from zero to building, evaluating, and deploying production-ready AI agents. No prior AI/ML knowledge required — just basic computer skills and a willingness to build.
+
+→ **[Start with Week 0 (optional math)](#week-0-optional-math-for-ai-agents-crash-kit-2-3-hrs)** · **[Jump to Week 1](#week-1-ai--llm-basics--math-integration)** · **[Key Guidelines](#key-guidelines)** · **[Background: Vibe Coding → Agentic Engineering](#background-from-vibe-coding-to-agentic-engineering-optional-recommended)**
+
+---
+
+## Who Is This For?
+
+| Track | Background | Entry Point |
+|-------|-----------|-------------|
+| **Complete Beginner** | No ML/AI experience; new to Python | Start at [Week 0](#week-0-optional-math-for-ai-agents-crash-kit-2-3-hrs) for math grounding, then proceed linearly |
+| **Intermediate Coder** | Comfortable with Python; built basic apps but new to AI | Skip Week 0; start at [Week 1](#week-1-ai--llm-basics--math-integration) and use [supplemental repos](#supplemental-reference-repositories) for depth |
+| **Agent-Curious Builder** | Already using LLMs/ChatGPT; want to build autonomous agents | Read [Background](#background-from-vibe-coding-to-agentic-engineering-optional-recommended) first, then jump to [Week 3](#week-3-agentic-ai-intro--basics) |
+
+---
+
+## Quick 12-Week Overview
+
+| Week | Focus | Ship |
+|------|-------|------|
+| [0](#week-0-optional-math-for-ai-agents-crash-kit-2-3-hrs) | Math Foundations *(optional)* | Cosine similarity by hand |
+| [1](#week-1-ai--llm-basics--math-integration) | AI & LLM Basics | Chain-of-thought prompt evaluations |
+| [2](#week-2-llm-fundamentals--embeddings-intuition) | LLM Fundamentals + Embeddings | Prompt fine-tuning with similarity metrics |
+| [3](#week-3-agentic-ai-intro--basics) | Agentic AI Intro | Tool-calling agent (weather checker) |
+| [4](#week-4-building-basic-agents--debugging-checkpoint) | Basic Agents + Debugging | Calculator agent with injected failures |
+| [5](#week-5-advanced-agent-tools) | Advanced Tools (MCP) | Week 4 agent + MCP integration |
+| [6](#week-6-retrieval--memory) | Retrieval & Memory (RAG) | RAG Q&A agent with hallucination fix |
+| [7](#week-7-agent-evaluation--ethicssafety) | Evaluation + Ethics/Safety | Adversarially hardened agent |
+| [8](#week-8-browser--specialized-agents) | Browser & Specialized Agents | Browser agent with safety checks |
+| [9](#week-9-multi-agent-systems) | Multi-Agent Systems | Multi-agent debate system |
+| [10](#week-10-ops--optimization--checkpoint) | Ops & Optimization | Production agent with cost monitoring |
+| [11](#week-11-projects--repos) | Projects & Repos | Full RAG + multi-agent integration |
+| [12](#week-12-synthesis-deep-dive--portfolio-polish) | Synthesis & Portfolio | Capstone ethical agent app + portfolio |
+
+---
 
 ## Key Guidelines
 
@@ -9,6 +43,47 @@ This 12-week self-paced course addresses key structural gaps through a first-pri
 - **Prerequisites**: Basic computer skills; if new to Python, add [freeCodeCamp's Python for Everybody](https://www.youtube.com/watch?v=8DvywoWv6fI) (first 2 hrs) before starting.
 - **Hands-On Focus**: Weekly mini-projects build a GitHub portfolio. Checkpoints in Weeks 4 and 10 refactor prior work.
 - **All Resources**: From the original list (links verified as of September 14, 2025) plus targeted additions for gaps. Total keeps ~90% original coverage.
+
+---
+
+## Background: From Vibe Coding to Agentic Engineering *(Optional, Recommended)*
+
+Understanding how AI-assisted development evolved — from free-form LLM prompting to disciplined agent orchestration — gives you the "why" behind this curriculum's structure. The arc took roughly two years.
+
+### The Evolution
+
+| Era | Coined | What it means | What drove the next step |
+|-----|--------|---------------|--------------------------|
+| **Vibe Coding** | Feb 2025 · Andrej Karpathy | Describe intent to an LLM; accept generated code with minimal review; *"fully give in to the vibes."* Karpathy: *"the hottest new programming language is English."* | Works for toy projects; unsafe for production. No structure, no oversight, code quality unknowable. |
+| **Vibe Engineering** | Mid 2025 | Keep the intuitive, high-level flow of vibe coding but embed it in a structured engineering process — architecture, code review, testing. | Still human-centric: one AI assistant + one developer. Doesn't scale to complex, multi-step, or multi-agent tasks. |
+| **Agentic Engineering** | Feb 2026 · Andrej Karpathy | Humans as **orchestrators** of AI agent teams — not coders. Agents plan, write, test, and deploy under human oversight. Emphasizes architecture, security, and auditability. | *(Current frontier)* |
+
+### Suggested Reading Order *(~3–4 hrs total, fully optional)*
+
+**1. Baseline — what vibe coding actually felt like**
+- [Wikipedia: Vibe Coding](https://en.wikipedia.org/wiki/Vibe_coding) *(15 min)* — Concise definition; ties directly to Karpathy's Feb 2, 2025 X post and the phrase "forget that the code even exists."
+
+**2. The intermediate step — adding discipline**
+- [Simon Willison: Vibe Engineering](https://simonwillison.net/2025/Oct/7/vibe-engineering/) *(15 min)* — How "fast and loose" AI-assisted building evolved to need structure and rigor.
+- [SmarterArticles: Vibe Engineering — Intuition Meets Discipline](https://smarterarticles.co.uk/vibe-engineering-when-intuition-meets-discipline-in-software-development) *(20 min)* — Why it's a distinct practice, not just "vibe coding + code review."
+- [Wopee: Vibe Coding, Vibe Testing, and Vibe Engineering](https://wopee.io/blog/vibe-testing-coding-engineering/) *(20 min)* — The full "vibe movement" across coding, testing, and deployment as a team-level practice.
+
+**3. The full arc — into agentic engineering**
+- [Taskade: What Is Agentic Engineering? Complete History](https://www.taskade.com/blog/what-is-agentic-engineering) *(30 min)* — Cleanest timeline: Turing (1950) → deep learning (2012) → Transformers (2017) → AutoGPT (2023) → MCP (2024) → vibe coding (2025) → agentic engineering (2026). Also covers the standards war (AAIF, MCP).
+- [IBM Think: What is Agentic Engineering?](https://www.ibm.com/think/topics/agentic-engineering) *(15 min)* — Enterprise framing; contrasts vibe coding with agentic engineering and explains why industry needed a more disciplined term.
+
+**4. The mindset shift — humans as orchestrators**
+- [Addy Osmani: Agentic Engineering](https://addyosmani.com/blog/agentic-engineering/) *(30 min)* — Opens with Karpathy's "gleefully reckless" vibe coding (prompt, accept everything, paste errors), then contrasts it with a disciplined agentic approach. **Best single read.**
+- [iS2 Digital: From Vibe Coding to Agentic Engineering](https://www.is2digital.com/insights/vibe-coding-agentic-engineering) *(20 min)* — Traces the Feb 2025 → Feb 2026 rebranding; covers security implications as you move from single assistant to orchestrated agent teams.
+- [Towards AI: Agentic Engineering — Humans as Orchestrators, not Coders](https://pub.towardsai.net/agentic-engineering-humans-as-orchestrators-not-coders-601d015d9c9e) *(20 min)* — Reflects critically on whether to take Karpathy's terminology seriously and what orchestrating agents means in practice.
+
+**5. Applied and academic perspectives**
+- [Algorand: From Vibe Coding to Agentic Engineering (Security)](https://algorand.co/blog/from-vibe-coding-to-agentic-engineering-security-for-ai-assisted-blockchain-development) *(20 min)* — Same vibe → agentic contrast applied to a security-critical blockchain context; useful companion to Week 7.
+- [arXiv 2505.19443: Vibe Coding vs. Agentic Coding — Fundamentals](https://arxiv.org/abs/2505.19443) *(30 min)* — Structured academic comparison of autonomy levels, architecture roles, and developer posture. Cite-worthy for essays or talks.
+
+> **Why this matters for the curriculum:** Weeks 1–2 are LLM fundamentals (the foundation of vibe coding). Weeks 3–5 introduce agent tools (the vibe engineering layer). Weeks 6–12 build toward full agentic engineering — RAG, evaluation, multi-agent orchestration, ops, and ethics.
+
+---
 
 ## Week 0: Optional Math for AI Agents Crash Kit (2-3 hrs)
 
