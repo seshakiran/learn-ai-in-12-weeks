@@ -36,6 +36,31 @@ This 12-week self-paced course addresses key structural gaps through a first-pri
 
 ---
 
+## YouTube Channel Resources
+
+Curated YouTube channels to supplement your learning throughout the 12 weeks. Links verified as of April 2026.
+
+| Channel | Description | Best Week(s) |
+|---------|-------------|--------------|
+| **3Blue1Brown** | Visual math & ML | [Week 0](#week-0-optional-math-for-ai-agents-crash-kit-2-3-hrs) |
+| **StatQuest (Josh Starmer)** | Statistics & ML basics | [Week 0](#week-0-optional-math-for-ai-agents-crash-kit-2-3-hrs) |
+| **MIT OpenCourseWare** | Academic AI courses | [Week 0](#week-0-optional-math-for-ai-agents-crash-kit-2-3-hrs) |
+| **Andrej Karpathy** | Neural networks & LLMs | [Week 1](#week-1-ai--llm-basics--math-integration), [Week 2](#week-2-llm-fundamentals--embeddings-intuition) |
+| **DeepLearning.AI** | Deep learning courses (Andrew Ng) | [Week 1](#week-1-ai--llm-basics--math-integration), [Week 2](#week-2-llm-fundamentals--embeddings-intuition) |
+| **sentdex** | Practical ML projects | [Week 1](#week-1-ai--llm-basics--math-integration), [Week 2](#week-2-llm-fundamentals--embeddings-intuition) |
+| **Siraj Raval** | AI overviews | [Week 1](#week-1-ai--llm-basics--math-integration) |
+| **Yannic Kilcher** | Research paper breakdowns | [Week 2](#week-2-llm-fundamentals--embeddings-intuition), [Week 7](#week-7-agent-evaluation--ethicssafety) |
+| **Umar Jamil** | Transformer implementations | [Week 2](#week-2-llm-fundamentals--embeddings-intuition), [Week 3](#week-3-agentic-ai-intro--basics) |
+| **Two Minute Papers** | AI research updates | [Week 2](#week-2-llm-fundamentals--embeddings-intuition), [Week 7](#week-7-agent-evaluation--ethicssafety) |
+| **Stanford Online** | University AI lectures | Throughout ( Weeks 1-12) |
+| **Hugging Face** | NLP & LLM tools | [Week 3](#week-3-agentic-ai-intro--basics), [Week 5](#week-5-advanced-agent-tools), [Week 11](#week-11-projects--repos) |
+| **Lex Fridman** | AI interviews | Throughout ( Weeks 1-12) |
+| **Steve Brunton** | Scientific ML | [Week 6](#week-6-retrieval--memory) |
+| **Michael Bronstein** | Graph deep learning | [Week 9](#week-9-multi-agent-systems) |
+| **GDLCaltech** | Advanced ML lectures (CS 156) | [Week 10](#week-10-ops--optimization--checkpoint) |
+
+---
+
 ## Key Guidelines
 
 - **Time Commitment**: 6-8 hours/week (videos/guides 2-3 hrs, courses/hands-on 3-4 hrs, review 1 hr). Week 0 is optional (2-3 hrs total).
