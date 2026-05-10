@@ -149,8 +149,8 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
 > - [01-linear-algebra-intuition](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/01-math-foundations/01-linear-algebra-intuition/) - vectors, linear combinations
-> - [02-linear-algebra-operations](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/01-math-foundations/02-linear-algebra-operations/) - matrix ops, determinants
-> - [03-eigen-decomposition](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/01-math-foundations/03-eigen-decomposition/) - eigenvalues, eigenvectors
+> - [02-vectors-matrices-operations](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/01-math-foundations/02-vectors-matrices-operations/) - matrix ops, determinants
+> - [03-matrix-transformations](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/01-math-foundations/03-matrix-transformations/) - eigenvalues, eigenvectors
 
 | Focus            | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -160,8 +160,8 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
 > - [Phase 2: ML Fundamentals](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/02-ml-fundamentals/) - supervised/unsupervised learning, training dynamics
-> - [01-intro-to-llms](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/10-llms-from-scratch/01-intro-to-llms/) - what is an LLM, tokenizer, embeddings
-> - [02-tokenization](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/10-llms-from-scratch/02-tokenization/) - byte-pair encoding, wordpiece, sentencepiece
+> - [01-tokenizers](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/10-llms-from-scratch/01-tokenizers/) - what is an LLM, tokenizer, embeddings
+> - [02-building-a-tokenizer](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/10-llms-from-scratch/02-building-a-tokenizer/) - byte-pair encoding, wordpiece, sentencepiece
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
