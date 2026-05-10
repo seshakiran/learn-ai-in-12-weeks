@@ -53,18 +53,18 @@ This curriculum has been updated to align with **[AI Engineering from Scratch](h
 
 | Week | Focus | Source Course Phases |
 |------|-------|---------------------|
-| 0 | Math Foundations *(optional)* | [Phase 1: Math Foundations](phases/01-math-foundations/) - 22 lessons covering linear algebra, probability, and statistics
-| 1 | AI & LLM Basics | [Phase 2: ML Fundamentals](phases/02-ml-fundamentals/), [Phase 10: LLMs from Scratch](phases/10-llms-from-scratch/) - intro to ML + building LLMs from scratch
-| 2 | LLM Fundamentals + Embeddings | [Phase 5: NLP Foundations to Advanced](phases/05-nlp-foundations-to-advanced/), [Phase 11: LLM Engineering](phases/11-llm-engineering/) - embeddings, prompt engineering, RAG basics
-| 3 | Agentic AI Intro & Basics | [Phase 14: Agent Engineering](phases/14-agent-engineering/) - the agent loop, tool use, function calling
-| 4 | Basic Agents + Debugging | [Phase 14: Agent Engineering](phases/14-agent-engineering/) - debugging, reflexion, self-critique
-| 5 | Advanced Agent Tools | [Phase 13: Tools & Protocols](phases/13-tools-and-protocols/) - MCP fundamentals, building MCP servers/clients
-| 6 | Retrieval & Memory | [Phase 11: LLM Engineering](phases/11-llm-engineering/) - RAG (06, 07), context engineering, embeddings
-| 7 | Evaluation + Ethics/Safety | [Phase 18: Ethics, Safety, Alignment](phases/18-ethics-safety-alignment/) - safety evaluation, alignment, red teaming
-| 8 | Browser & Specialized Agents | [Phase 14: Agent Engineering](phases/14-agent-engineering/), [Phase 15: Autonomous Systems](phases/15-autonomous-systems/) - computer use, browser agents
-| 9 | Multi-Agent Systems | [Phase 16: Multi-Agent & Swarms](phases/16-multi-agent-and-swarms/) - supervisor patterns, hierarchical architecture, debate
-| 10 | Ops & Optimization | [Phase 17: Infrastructure & Production](phases/17-infrastructure-and-production/) - observability, caching, quantization, latency
-| 11 | Projects & Repos | [Phase 19: Capstone Projects](phases/19-capstone-projects/) - full-stack agent projects
+| 0 | Math Foundations *(optional)* | [Phase 1: Math Foundations](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/01-math-foundations/) - 22 lessons covering linear algebra, probability, and statistics
+| 1 | AI & LLM Basics | [Phase 2: ML Fundamentals](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/02-ml-fundamentals/), [Phase 10: LLMs from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/10-llms-from-scratch/) - intro to ML + building LLMs from scratch
+| 2 | LLM Fundamentals + Embeddings | [Phase 5: NLP Foundations to Advanced](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/05-nlp-foundations-to-advanced/), [Phase 11: LLM Engineering](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/) - embeddings, prompt engineering, RAG basics
+| 3 | Agentic AI Intro & Basics | [Phase 14: Agent Engineering](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/14-agent-engineering/) - the agent loop, tool use, function calling
+| 4 | Basic Agents + Debugging | [Phase 14: Agent Engineering](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/14-agent-engineering/) - debugging, reflexion, self-critique
+| 5 | Advanced Agent Tools | [Phase 13: Tools & Protocols](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/13-tools-and-protocols/) - MCP fundamentals, building MCP servers/clients
+| 6 | Retrieval & Memory | [Phase 11: LLM Engineering](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/) - RAG (06, 07), context engineering, embeddings
+| 7 | Evaluation + Ethics/Safety | [Phase 18: Ethics, Safety, Alignment](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/18-ethics-safety-alignment/) - safety evaluation, alignment, red teaming
+| 8 | Browser & Specialized Agents | [Phase 14: Agent Engineering](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/14-agent-engineering/), [Phase 15: Autonomous Systems](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/15-autonomous-systems/) - computer use, browser agents
+| 9 | Multi-Agent Systems | [Phase 16: Multi-Agent & Swarms](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/16-multi-agent-and-swarms/) - supervisor patterns, hierarchical architecture, debate
+| 10 | Ops & Optimization | [Phase 17: Infrastructure & Production](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/17-infrastructure-and-production/) - observability, caching, quantization, latency
+| 11 | Projects & Repos | [Phase 19: Capstone Projects](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/19-capstone-projects/) - full-stack agent projects
 | 12 | Synthesis & Portfolio | All phases - synthesize everything learned
 
 ---
@@ -148,9 +148,9 @@ Understanding how AI-assisted development evolved — from free-form LLM prompti
 Build intuition for probability (e.g., LLM predictions), embeddings (vector representations), and metrics (e.g., cosine similarity for similarity). Essential for reasoning about "why" agents work/fail.
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [01-linear-algebra-intuition](phases/01-math-foundations/01-linear-algebra-intuition/) - vectors, linear combinations
-> - [02-linear-algebra-operations](phases/01-math-foundations/02-linear-algebra-operations/) - matrix ops, determinants
-> - [03-eigen-decomposition](phases/01-math-foundations/03-eigen-decomposition/) - eigenvalues, eigenvectors
+> - [01-linear-algebra-intuition](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/01-math-foundations/01-linear-algebra-intuition/) - vectors, linear combinations
+> - [02-linear-algebra-operations](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/01-math-foundations/02-linear-algebra-operations/) - matrix ops, determinants
+> - [03-eigen-decomposition](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/01-math-foundations/03-eigen-decomposition/) - eigenvalues, eigenvectors
 
 | Focus            | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -159,9 +159,9 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 ## Week 1: AI & LLM Basics + Math Integration
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [Phase 2: ML Fundamentals](phases/02-ml-fundamentals/) - supervised/unsupervised learning, training dynamics
-> - [01-intro-to-llms](phases/10-llms-from-scratch/01-intro-to-llms/) - what is an LLM, tokenizer, embeddings
-> - [02-tokenization](phases/10-llms-from-scratch/02-tokenization/) - byte-pair encoding, wordpiece, sentencepiece
+> - [Phase 2: ML Fundamentals](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/02-ml-fundamentals/) - supervised/unsupervised learning, training dynamics
+> - [01-intro-to-llms](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/10-llms-from-scratch/01-intro-to-llms/) - what is an LLM, tokenizer, embeddings
+> - [02-tokenization](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/10-llms-from-scratch/02-tokenization/) - byte-pair encoding, wordpiece, sentencepiece
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -170,9 +170,9 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 ## Week 2: LLM Fundamentals + Embeddings Intuition
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [04-embeddings](phases/11-llm-engineering/04-embeddings/) - word2vec, BERT, cosine similarity
-> - [01-prompt-engineering](phases/11-llm-engineering/01-prompt-engineering/) - zero-shot, few-shot, chain-of-thought
-> - [02-few-shot-cot](phases/11-llm-engineering/02-few-shot-cot/) - structured outputs, JSON mode
+> - [04-embeddings](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/04-embeddings/) - word2vec, BERT, cosine similarity
+> - [01-prompt-engineering](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/01-prompt-engineering/) - zero-shot, few-shot, chain-of-thought
+> - [02-few-shot-cot](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/02-few-shot-cot/) - structured outputs, JSON mode
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -181,8 +181,8 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 ## Week 3: Agentic AI Intro & Basics
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [01-the-agent-loop](phases/14-agent-engineering/01-the-agent-loop/) - agent loop, observation, action, feedback
-> - [06-tool-use-and-function-calling](phases/14-agent-engineering/06-tool-use-and-function-calling/) - function calling, tool schema design
+> - [01-the-agent-loop](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/14-agent-engineering/01-the-agent-loop/) - agent loop, observation, action, feedback
+> - [06-tool-use-and-function-calling](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/14-agent-engineering/06-tool-use-and-function-calling/) - function calling, tool schema design
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -191,9 +191,9 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 ## Week 4: Building Basic Agents + Debugging Checkpoint
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [03-reflexion-verbal-rl](phases/14-agent-engineering/03-reflexion-verbal-rl/) - verbal reflection, self-critique
-> - [05-self-refine-and-critic](phases/14-agent-engineering/05-self-refine-and-critic/) - self-refine patterns, error handling
-> - [01-debugging-and-profiling](phases/00-setup-and-tooling/12-debugging-and-profiling/) - debugging tools for AI
+> - [03-reflexion-verbal-rl](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/14-agent-engineering/03-reflexion-verbal-rl/) - verbal reflection, self-critique
+> - [05-self-refine-and-critic](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/14-agent-engineering/05-self-refine-and-critic/) - self-refine patterns, error handling
+> - [01-debugging-and-profiling](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/00-setup-and-tooling/12-debugging-and-profiling/) - debugging tools for AI
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -202,9 +202,9 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 ## Week 5: Advanced Agent Tools
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [06-mcp-fundamentals](phases/13-tools-and-protocols/06-mcp-fundamentals/) - MCP protocol overview
-> - [07-building-an-mcp-server](phases/13-tools-and-protocols/07-building-an-mcp-server/) - build your own MCP server
-> - [08-building-an-mcp-client](phases/13-tools-and-protocols/08-building-an-mcp-client/) - connect to MCP servers
+> - [06-mcp-fundamentals](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/13-tools-and-protocols/06-mcp-fundamentals/) - MCP protocol overview
+> - [07-building-an-mcp-server](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/13-tools-and-protocols/07-building-an-mcp-server/) - build your own MCP server
+> - [08-building-an-mcp-client](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/13-tools-and-protocols/08-building-an-mcp-client/) - connect to MCP servers
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -213,10 +213,10 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 ## Week 6: Retrieval & Memory
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [06-rag](phases/11-llm-engineering/06-rag/) - retrieval-augmented generation basics
-> - [07-advanced-rag](phases/11-llm-engineering/07-advanced-rag/) - hybrid search, reranking, agentic RAG
-> - [05-context-engineering](phases/11-llm-engineering/05-context-engineering/) - context window management
-> - [07-memory-virtual-context-memgpt](phases/14-agent-engineering/07-memory-virtual-context-memgpt/) - virtual context memory
+> - [06-rag](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/06-rag/) - retrieval-augmented generation basics
+> - [07-advanced-rag](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/07-advanced-rag/) - hybrid search, reranking, agentic RAG
+> - [05-context-engineering](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/05-context-engineering/) - context window management
+> - [07-memory-virtual-context-memgpt](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/14-agent-engineering/07-memory-virtual-context-memgpt/) - virtual context memory
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -225,9 +225,9 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 ## Week 7: Agent Evaluation + Ethics/Safety
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [Phase 18: Ethics, Safety, Alignment](phases/18-ethics-safety-alignment/) - safety evaluation, red teaming, alignment
-> - [10-evaluation](phases/11-llm-engineering/10-evaluation/) - LLM evaluation metrics, benchmarks
-> - [12-guardrails](phases/11-llm-engineering/12-guardrails/) - guardrails, input/output filtering
+> - [Phase 18: Ethics, Safety, Alignment](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/18-ethics-safety-alignment/) - safety evaluation, red teaming, alignment
+> - [10-evaluation](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/10-evaluation/) - LLM evaluation metrics, benchmarks
+> - [12-guardrails](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/12-guardrails/) - guardrails, input/output filtering
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -236,8 +236,8 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 ## Week 8: Browser & Specialized Agents
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [Phase 15: Autonomous Systems](phases/15-autonomous-systems/) - computer use, browser automation
-> - [Phase 13: MCP Apps](phases/13-tools-and-protocols/14-mcp-apps/) - MCP-powered applications
+> - [Phase 15: Autonomous Systems](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/15-autonomous-systems/) - computer use, browser automation
+> - [Phase 13: MCP Apps](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/13-tools-and-protocols/14-mcp-apps/) - MCP-powered applications
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -246,10 +246,10 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 ## Week 9: Multi-Agent Systems
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [01-why-multi-agent](phases/16-multi-agent-and-swarms/01-why-multi-agent/) - why multi-agent systems
-> - [05-supervisor-orchestrator-pattern](phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/) - supervisor architecture
-> - [06-hierarchical-architecture](phases/16-multi-agent-and-swarms/06-hierarchical-architecture/) - hierarchical agent teams
-> - [07-society-of-mind-debate](phases/16-multi-agent-and-swarms/07-society-of-mind-debate/) - debate patterns
+> - [01-why-multi-agent](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/16-multi-agent-and-swarms/01-why-multi-agent/) - why multi-agent systems
+> - [05-supervisor-orchestrator-pattern](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/) - supervisor architecture
+> - [06-hierarchical-architecture](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/16-multi-agent-and-swarms/06-hierarchical-architecture/) - hierarchical agent teams
+> - [07-society-of-mind-debate](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/16-multi-agent-and-swarms/07-society-of-mind-debate/) - debate patterns
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -258,10 +258,10 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 ## Week 10: Ops & Optimization + Checkpoint
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [01-managed-llm-platforms](phases/17-infrastructure-and-production/01-managed-llm-platforms/) - OpenAI, Anthropic, Azure AI
-> - [08-inference-metrics-goodput](phases/17-infrastructure-and-production/08-inference-metrics-goodput/) - latency, throughput, goodput
-> - [13-llm-observability](phases/17-infrastructure-and-production/13-llm-observability/) - tracing, monitoring, debugging
-> - [14-prompt-semantic-caching](phases/17-infrastructure-and-production/14-prompt-semantic-caching/) - semantic caching strategies
+> - [01-managed-llm-platforms](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/17-infrastructure-and-production/01-managed-llm-platforms/) - OpenAI, Anthropic, Azure AI
+> - [08-inference-metrics-goodput](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/17-infrastructure-and-production/08-inference-metrics-goodput/) - latency, throughput, goodput
+> - [13-llm-observability](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/17-infrastructure-and-production/13-llm-observability/) - tracing, monitoring, debugging
+> - [14-prompt-semantic-caching](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/17-infrastructure-and-production/14-prompt-semantic-caching/) - semantic caching strategies
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -270,9 +270,9 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 ## Week 11: Projects & Repos
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
-> - [Phase 19: Capstone Projects](phases/19-capstone-projects/) - full-stack agent projects
-> - [13-production-app](phases/11-llm-engineering/13-production-app/) - building production LLM apps
-> - [17-agent-framework-tradeoffs](phases/11-llm-engineering/17-agent-framework-tradeoffs/) - LangChain, LlamaIndex, Hayraphase trade-offs
+> - [Phase 19: Capstone Projects](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/19-capstone-projects/) - full-stack agent projects
+> - [13-production-app](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/13-production-app/) - building production LLM apps
+> - [17-agent-framework-tradeoffs](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/11-llm-engineering/17-agent-framework-tradeoffs/) - LangChain, LlamaIndex, Hayraphase trade-offs
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -282,8 +282,8 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 
 > 📚 **Source Course Lessons** (AI Engineering from Scratch):
 > - Synthesize all phases - bring together everything learned
-> - Use [Phase 19: Capstone Projects](phases/19-capstone-projects/) for portfolio ideas
-> - Review [Phase 18: Ethics, Safety, Alignment](phases/18-ethics-safety-alignment/) for ethics recap
+> - Use [Phase 19: Capstone Projects](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/19-capstone-projects/) for portfolio ideas
+> - Review [Phase 18: Ethics, Safety, Alignment](https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/phases/18-ethics-safety-alignment/) for ethics recap
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
