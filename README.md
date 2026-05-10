@@ -36,6 +36,39 @@ This 12-week self-paced course addresses key structural gaps through a first-pri
 
 ---
 
+## 🎓 Primary Reference: AI Engineering from Scratch
+
+This curriculum has been updated to align with **[AI Engineering from Scratch](https://aiengineeringfromscratch.com/)** — a comprehensive 20-phase, 416-lesson open-source course. The source course provides deep, first-principles coverage of every topic in this 12-week program.
+
+> **Source Course**: [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) · 416 lessons · 20 phases · ~320 hours · MIT License
+
+### How to Use Both
+
+- This 12-week course provides a focused, accelerated path for agent engineering
+- The source course offers deeper exploration with runnable code in Python, TypeScript, Rust, and Julia
+- For each week below, relevant lessons from the source course are referenced
+- Clone the source repo for hands-on code: `git clone https://github.com/rohitg00/ai-engineering-from-scratch.git`
+
+### Week-to-Phase Mapping
+
+| Week | Focus | Source Course Phases |
+|------|-------|---------------------|
+| 0 | Math Foundations *(optional)* | [Phase 1: Math Foundations](phases/01-math-foundations/) - 22 lessons covering linear algebra, probability, and statistics
+| 1 | AI & LLM Basics | [Phase 2: ML Fundamentals](phases/02-ml-fundamentals/), [Phase 10: LLMs from Scratch](phases/10-llms-from-scratch/) - intro to ML + building LLMs from scratch
+| 2 | LLM Fundamentals + Embeddings | [Phase 5: NLP Foundations to Advanced](phases/05-nlp-foundations-to-advanced/), [Phase 11: LLM Engineering](phases/11-llm-engineering/) - embeddings, prompt engineering, RAG basics
+| 3 | Agentic AI Intro & Basics | [Phase 14: Agent Engineering](phases/14-agent-engineering/) - the agent loop, tool use, function calling
+| 4 | Basic Agents + Debugging | [Phase 14: Agent Engineering](phases/14-agent-engineering/) - debugging, reflexion, self-critique
+| 5 | Advanced Agent Tools | [Phase 13: Tools & Protocols](phases/13-tools-and-protocols/) - MCP fundamentals, building MCP servers/clients
+| 6 | Retrieval & Memory | [Phase 11: LLM Engineering](phases/11-llm-engineering/) - RAG (06, 07), context engineering, embeddings
+| 7 | Evaluation + Ethics/Safety | [Phase 18: Ethics, Safety, Alignment](phases/18-ethics-safety-alignment/) - safety evaluation, alignment, red teaming
+| 8 | Browser & Specialized Agents | [Phase 14: Agent Engineering](phases/14-agent-engineering/), [Phase 15: Autonomous Systems](phases/15-autonomous-systems/) - computer use, browser agents
+| 9 | Multi-Agent Systems | [Phase 16: Multi-Agent & Swarms](phases/16-multi-agent-and-swarms/) - supervisor patterns, hierarchical architecture, debate
+| 10 | Ops & Optimization | [Phase 17: Infrastructure & Production](phases/17-infrastructure-and-production/) - observability, caching, quantization, latency
+| 11 | Projects & Repos | [Phase 19: Capstone Projects](phases/19-capstone-projects/) - full-stack agent projects
+| 12 | Synthesis & Portfolio | All phases - synthesize everything learned
+
+---
+
 ## YouTube Channel Resources
 
 Curated YouTube channels to supplement your learning throughout the 12 weeks. Links verified as of April 2026.
@@ -114,11 +147,21 @@ Understanding how AI-assisted development evolved — from free-form LLM prompti
 
 Build intuition for probability (e.g., LLM predictions), embeddings (vector representations), and metrics (e.g., cosine similarity for similarity). Essential for reasoning about "why" agents work/fail.
 
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [01-linear-algebra-intuition](phases/01-math-foundations/01-linear-algebra-intuition/) - vectors, linear combinations
+> - [02-linear-algebra-operations](phases/01-math-foundations/02-linear-algebra-operations/) - matrix ops, determinants
+> - [03-eigen-decomposition](phases/01-math-foundations/03-eigen-decomposition/) - eigenvalues, eigenvectors
+
 | Focus            | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
 | **Math Intuition** | - Videos: [3Blue1Brown Essence of Linear Algebra (Chapters 1-3: Vectors, Linear Combinations, Matrices)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (1 hr)<br>- Videos: [Khan Academy Probability Basics (Intro to Probability, Random Variables)](https://www.khanacademy.org/math/statistics-probability/probability-library) (45 min)<br>- Guide: [3Blue1Brown Neural Networks Playlist (Chapter on Embeddings/Cosine Similarity)](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) (45 min)<br>- Repo: [Machine Learning for Beginners (Microsoft)](https://github.com/microsoft/ML-For-Beginners) — 12-week structured curriculum with labs covering classical ML models; skim Week 1 intro for ML context (30 min) | Grasp vectors as "AI's language," probability for uncertainty, embeddings for meaning. Mini-project: Calculate cosine similarity by hand for two sentences using AI-generated vectors. | 2-3 hrs |
 
 ## Week 1: AI & LLM Basics + Math Integration
+
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [Phase 2: ML Fundamentals](phases/02-ml-fundamentals/) - supervised/unsupervised learning, training dynamics
+> - [01-intro-to-llms](phases/10-llms-from-scratch/01-intro-to-llms/) - what is an LLM, tokenizer, embeddings
+> - [02-tokenization](phases/10-llms-from-scratch/02-tokenization/) - byte-pair encoding, wordpiece, sentencepiece
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -126,11 +169,20 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 
 ## Week 2: LLM Fundamentals + Embeddings Intuition
 
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [04-embeddings](phases/11-llm-engineering/04-embeddings/) - word2vec, BERT, cosine similarity
+> - [01-prompt-engineering](phases/11-llm-engineering/01-prompt-engineering/) - zero-shot, few-shot, chain-of-thought
+> - [02-few-shot-cot](phases/11-llm-engineering/02-few-shot-cot/) - structured outputs, JSON mode
+
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
 | **LLM Fundamentals + Embeddings Intuition** | - Video: [LLMs from Scratch - Stanford CS229](https://www.youtube.com/watch?v=9vM4p9NN0Ts) (1 hr)<br>- Course: [Improving LLM Accuracy](https://www.deeplearning.ai/short-courses/improving-accuracy-of-llm-applications/) (Module 1, 2 hrs)<br>- Repo: [Hands-On Large Language Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) — Jupyter notebooks covering embeddings, fine-tuning, and LLM apps (run 1 notebook, 1 hr)<br>- Integration: Apply Week 0 embeddings to visualize token vectors. | Learn training/inference with math grounding. Mini-project: Fine-tune a prompt for a riddle; measure improvement with similarity metrics. | 6-7 hrs |
 
 ## Week 3: Agentic AI Intro & Basics
+
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [01-the-agent-loop](phases/14-agent-engineering/01-the-agent-loop/) - agent loop, observation, action, feedback
+> - [06-tool-use-and-function-calling](phases/14-agent-engineering/06-tool-use-and-function-calling/) - function calling, tool schema design
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -138,11 +190,21 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 
 ## Week 4: Building Basic Agents + Debugging Checkpoint
 
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [03-reflexion-verbal-rl](phases/14-agent-engineering/03-reflexion-verbal-rl/) - verbal reflection, self-critique
+> - [05-self-refine-and-critic](phases/14-agent-engineering/05-self-refine-and-critic/) - self-refine patterns, error handling
+> - [01-debugging-and-profiling](phases/00-setup-and-tooling/12-debugging-and-profiling/) - debugging tools for AI
+
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
 | **Building Basic Agents + Debugging Checkpoint** | - Video: [Building and Evaluating Agents](https://youtu.be/d5EltXhbcfA?si=Y7BK6MgG6dbtC5aX) (45 min)<br>- Video: [Building Effective Agents](https://youtu.be/D7_ipDqhtwk?si=x70I0lKjSxJFPGhF) (45 min)<br>- Guide: [Building Effective Agents by Anthropic](https://github.com/HeyNina101/ai-agent-starter-kit/blob/main/expert-guides/03-anthropic-building-effective-ai-agents.pdf) (1 hr)<br>- Repo: [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) (run example, 1 hr)<br>- New: Debugging Guide [Debugging LLM Failures](https://medium.com/@kuldeep.paul08/debugging-llm-failures-a-comprehensive-guide-to-robust-ai-applications-4d3e07c59df5) (hallucinations/loops, 1 hr) | Code first agent; checkpoint: Refactor Weeks 1-3 projects. Mini-project: Build calculator agent; deliberately induce failure (e.g., infinite loop), log traces, and fix. | 7-8 hrs |
 
 ## Week 5: Advanced Agent Tools
+
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [06-mcp-fundamentals](phases/13-tools-and-protocols/06-mcp-fundamentals/) - MCP protocol overview
+> - [07-building-an-mcp-server](phases/13-tools-and-protocols/07-building-an-mcp-server/) - build your own MCP server
+> - [08-building-an-mcp-client](phases/13-tools-and-protocols/08-building-an-mcp-client/) - connect to MCP servers
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -150,11 +212,22 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 
 ## Week 6: Retrieval & Memory
 
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [06-rag](phases/11-llm-engineering/06-rag/) - retrieval-augmented generation basics
+> - [07-advanced-rag](phases/11-llm-engineering/07-advanced-rag/) - hybrid search, reranking, agentic RAG
+> - [05-context-engineering](phases/11-llm-engineering/05-context-engineering/) - context window management
+> - [07-memory-virtual-context-memgpt](phases/14-agent-engineering/07-memory-virtual-context-memgpt/) - virtual context memory
+
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
 | **Retrieval & Memory**     | - Course: [Building Vector DB with Pinecone](https://www.deeplearning.ai/short-courses/building-applications-vector-databases/) (Modules 1-2, 2 hrs)<br>- Course: [Agent Memory](https://www.deeplearning.ai/short-courses/llms-as-operating-systems-agent-memory/) (full, 2 hrs)<br>- Course: [Building and Evaluating RAG Apps](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/) (Module 1, 1 hr)<br>- Paper: [Retrieval-Augmented Generation Survey](https://arxiv.org/pdf/2312.10997) (skim, 1 hr; tie to Week 0 embeddings) | Add RAG/memory; debug retrieval failures. Mini-project: RAG Q&A agent for a doc; fix hallucination via traces. | 8 hrs |
 
 ## Week 7: Agent Evaluation + Ethics/Safety
+
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [Phase 18: Ethics, Safety, Alignment](phases/18-ethics-safety-alignment/) - safety evaluation, red teaming, alignment
+> - [10-evaluation](phases/11-llm-engineering/10-evaluation/) - LLM evaluation metrics, benchmarks
+> - [12-guardrails](phases/11-llm-engineering/12-guardrails/) - guardrails, input/output filtering
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -162,11 +235,21 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 
 ## Week 8: Browser & Specialized Agents
 
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [Phase 15: Autonomous Systems](phases/15-autonomous-systems/) - computer use, browser automation
+> - [Phase 13: MCP Apps](phases/13-tools-and-protocols/14-mcp-apps/) - MCP-powered applications
+
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
 | **Browser & Specialized Agents** | - Guide: [Google's Agent](https://github.com/HeyNina101/ai-agent-starter-kit/blob/main/expert-guides/09-agents.pdf) (1 hr)<br>- Guide: [Claude Code Best Practices](https://github.com/HeyNina101/ai-agent-starter-kit/blob/main/expert-guides/10-coding_best_practices_Anthropic.pdf) (1 hr)<br>- New: Tutorial [Building AI Browser Agents with n8n](https://www.youtube.com/watch?v=O3HP4uC7XlA) (full, 2 hrs) | Handle web tasks ethically. Mini-project: Browser agent for scraping headlines; add safety checks (e.g., no sensitive data). | 7 hrs |
 
 ## Week 9: Multi-Agent Systems
+
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [01-why-multi-agent](phases/16-multi-agent-and-swarms/01-why-multi-agent/) - why multi-agent systems
+> - [05-supervisor-orchestrator-pattern](phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/) - supervisor architecture
+> - [06-hierarchical-architecture](phases/16-multi-agent-and-swarms/06-hierarchical-architecture/) - hierarchical agent teams
+> - [07-society-of-mind-debate](phases/16-multi-agent-and-swarms/07-society-of-mind-debate/) - debate patterns
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -174,17 +257,33 @@ Build intuition for probability (e.g., LLM predictions), embeddings (vector repr
 
 ## Week 10: Ops & Optimization + Checkpoint
 
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [01-managed-llm-platforms](phases/17-infrastructure-and-production/01-managed-llm-platforms/) - OpenAI, Anthropic, Azure AI
+> - [08-inference-metrics-goodput](phases/17-infrastructure-and-production/08-inference-metrics-goodput/) - latency, throughput, goodput
+> - [13-llm-observability](phases/17-infrastructure-and-production/13-llm-observability/) - tracing, monitoring, debugging
+> - [14-prompt-semantic-caching](phases/17-infrastructure-and-production/14-prompt-semantic-caching/) - semantic caching strategies
+
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
 | **Ops & Optimization + Checkpoint** | - Course: [LLMOps](https://www.deeplearning.ai/short-courses/llmops/) (full, 2 hrs)<br>- Guide: [Google's Agent Companion](https://github.com/HeyNina101/ai-agent-starter-kit/blob/main/expert-guides/08-agents-companion.pdf) (1 hr)<br>- Paper: [Toolformer](https://proceedings.neurips.cc/paper_files/paper/2023/file/d842425e4bf79ba039352da0f658a906-Paper-Conference.pdf) (overview, 1 hr)<br>- New: Expansion [How to Debug Agentic AI](https://katalon.com/resources-center/blog/how-to-debug-agentic-ai-from-failed-output-to-root-cause) (cost/latency/monitoring, 1 hr)<br>- Repo: [Made With ML](https://github.com/GokuMohandas/Made-With-ML) — production ML systems covering data pipelines, testing, and monitoring (skim ML systems section, 1 hr)<br>- Repo: [Designing ML Systems (Chip Huyen)](https://github.com/chiphuyen/dmls-book) — notes and references from the ML systems book; learn how real production ML pipelines work (browse, 30 min)<br>- Checkpoint: Refactor Weeks 1-9 with ops (e.g., add rate limits). | Deploy with monitoring/human loops. Mini-project: Optimize Week 9 agent for cost; log production-like traces. | 7 hrs |
 
 ## Week 11: Projects & Repos
 
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - [Phase 19: Capstone Projects](phases/19-capstone-projects/) - full-stack agent projects
+> - [13-production-app](phases/11-llm-engineering/13-production-app/) - building production LLM apps
+> - [17-agent-framework-tradeoffs](phases/11-llm-engineering/17-agent-framework-tradeoffs/) - LangChain, LlamaIndex, Hayraphase trade-offs
+
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
 | **Projects & Repos**       | - Repo: [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) (extend, 2 hrs)<br>- Repo: [Microsoft's AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) (1 lab, 2 hrs)<br>- Repo: [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — most complete prompt engineering resource covering RAG, agents, and LLM workflows (apply, 1 hr)<br>- Repo: [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai) — curated list of GenAI tools, frameworks, research papers, and tutorials for LLM apps and agents (browse, 30 min)<br>- Course: [HuggingFace's Agent Course](https://huggingface.co/learn/agents-course/en/unit0/introduction) (finish Units 2+, 1 hr) | Build robust projects. Mini-project: Integrate RAG/multi-agent with ethics/debugging. | 8 hrs |
 
 ## Week 12: Synthesis, Deep Dive & Portfolio Polish
+
+> 📚 **Source Course Lessons** (AI Engineering from Scratch):
+> - Synthesize all phases - bring together everything learned
+> - Use [Phase 19: Capstone Projects](phases/19-capstone-projects/) for portfolio ideas
+> - Review [Phase 18: Ethics, Safety, Alignment](phases/18-ethics-safety-alignment/) for ethics recap
 
 | Focus                      | Key Resources                                                                 | Goals/Activities                                                                 | Estimated Time |
 |----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------|
@@ -200,6 +299,7 @@ These repos are integrated throughout the weekly curriculum above but listed her
 
 | # | Repo | Description | Best Week |
 |---|------|-------------|-----------|
+| 0 | **[AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch)** | ⭐ Primary reference - 20-phase, 416-lesson comprehensive curriculum with runnable code | All weeks |
 | 1 | [AI Agents for Beginners (Microsoft)](https://github.com/microsoft/ai-agents-for-beginners) | Step-by-step lessons using Semantic Kernel, AutoGen, and Azure AI with real notebooks | Weeks 3, 11 |
 | 2 | [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai) | Massive curated list of GenAI resources — tools, frameworks, papers, and tutorials for LLM apps, agents, and RAG | Week 11 |
 | 3 | [Designing ML Systems (Chip Huyen)](https://github.com/chiphuyen/dmls-book) | Notes and references from the ML systems book; learn how real production ML pipelines work | Week 10 |
